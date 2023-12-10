@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "emoodapi": "npx functions-framework --target=emoodapi"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.1",
+    "@google-cloud/functions-framework": "^3.1.0"
+  }
+}
